@@ -1,0 +1,26 @@
+.navbar{
+    background-color: var(--PRIMARY-COLOR-DARK-20);
+    padding:0 3rem;
+}
+
+.flexRowEnd{
+    justify-content: flex-end;
+}
+
+.loginBtn{
+    font-size: 2rem;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: var(--PRIMARY-COLOR);
+}
+
+.hamburger{
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+
+.hamburger:hover{
+    color:var(--WHITE-COLOR)
+}
+
+

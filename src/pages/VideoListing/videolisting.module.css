@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: 24rem 1fr;
+    grid-template-areas: "navbar navbar"
+    "sidebar main";
+}
+
+.navbar{
+    grid-area: navbar;
+   
+}
+
+.sidebarNav{
+    grid-area: sidebar;
+}
+
+.main{
+    grid-area:main;
+    height: calc(100vh - 8rem);
+    overflow: auto;
+}
+
+.categoryChips{
+    width:100%;
+    min-height: 6.2rem;
+    padding:1.8rem 7rem 1.7rem;
+    border-bottom: 1px solid var(--CARD-SHADOW-1);
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.videosThumbnail{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    justify-items: center;
+    gap:2px;
+    padding: 1rem 3.2rem;
+}
+    
