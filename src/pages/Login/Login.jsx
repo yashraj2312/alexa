@@ -11,11 +11,11 @@ export function Login() {
   const [userDetails, setUserDetails] = useState({
     email: "",
     password: "",
-    isRememberMe: true,
   });
 
   const { handleSignIn } = useAuth();
   const [showPassWord, setShowPassword] = useState(false);
+
   const submitHandler = (e) => {
     e.preventDefault();
     handleSignIn(userDetails);
@@ -39,7 +39,7 @@ export function Login() {
                 type='email'
                 id='email'
                 name='email'
-                placeholder='testsingh@gmail.com'
+                placeholder='johndoe@gmail.com'
                 value={userDetails.email}
                 setUserDetails={setUserDetails}
                 userDetails={userDetails}
@@ -65,33 +65,6 @@ export function Login() {
               </span>
             </div>
 
-            <div className='form-check md-vt-1 flex-row'>
-              <input
-                type='checkbox'
-                checked={userDetails.isRememberMe}
-                onChange={() =>
-                  setUserDetails({
-                    ...userDetails,
-                    isRememberMe: !userDetails.isRememberMe,
-                  })
-                }
-                id='remember-me'
-              />
-              <label
-                className='form-label-inline text-sm text-primary'
-                htmlFor='remember-me'
-              >
-                Remember Me
-              </label>
-              <Link
-                className={`text-sm text-bold-500 ${styles.forgotPassword}`}
-                to='forgot-pwd'
-                role='button'
-              >
-                Forgot password?
-              </Link>
-            </div>
-
             <div className='flex-column '>
               <input
                 type='submit'
@@ -107,7 +80,7 @@ export function Login() {
               <p
                 className={`text-sm text-center text-bold-500 text-primary ${styles.formLinkText}`}
               >
-                New to TunnelTube ?
+                New to Tunnel Tube ?
               </p>
               <Link
                 className={`btn btn-secondary text-center ${styles.btnCreateAccount}`}

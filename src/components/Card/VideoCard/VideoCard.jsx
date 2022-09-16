@@ -105,7 +105,7 @@ export function VideoCard({
                 ) : (
                   <>
                     <IcSharpPlus className='text-md' />
-                    <span className='pd-ht-1 text-sm'>Watch Later</span>
+                    <span className='pd-ht-1 text-sm'>Add to watch later</span>
                   </>
                 )}
               </li>

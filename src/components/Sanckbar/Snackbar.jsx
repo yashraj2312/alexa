@@ -10,11 +10,11 @@ export function Snackbar({ message, type, handleRemoveSnackbar }) {
     }, 1500);
 
     return () => clearTimeout(timerId);
-  }, [handleRemoveSnackbar]);
+  }, []);
 
   return (
     <div
-      className={`snackbar flex-row ${type} ${styles.shuttleMotionSnackbar} pd-1 md-vt-1`}
+      className={`snackbar flex-row ${type} ${styles.tunnelTubeSnackbar} pd-1 md-vt-1`}
     >
       <p className='md-ht-2'>{message}</p>
       <span
