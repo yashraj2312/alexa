@@ -17,7 +17,7 @@ export const videos = [
       name: "Bachpan Play School",
     },
     views: "5k",
-    category: "Players Interview",
+    category: "Science",
     videoID: "RAnyZRnPE3I",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/PV-Sindhu-Interview_kemx3s.jpg",
@@ -33,7 +33,7 @@ export const videos = [
       name: "Olympics",
     },
     views: "6M",
-    category: "Match Highlights",
+    category: "Tech",
     videoID: "JRF8mECyOJY",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/PV-Sindhu-Match_iino5e.jpg",
@@ -49,7 +49,7 @@ export const videos = [
       name: "Olympics",
     },
     views: "2.5M",
-    category: "Match Highlights",
+    category: "Tech",
     videoID: "uIj03RsGrJA",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964202/Shuttle%20motion/Badminton-Gold_Medal-Match_vxdapm.jpg",
@@ -65,7 +65,7 @@ export const videos = [
       name: "Visit London",
     },
     views: "13k",
-    category: "Players Interview",
+    category: "Science",
     videoID: "X4Uu_0xwU7g",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/BWF-Players-interview_oxdcrr.jpg",
@@ -81,7 +81,7 @@ export const videos = [
       name: "Shuttle Amazing",
     },
     views: "110k",
-    category: "Match Highlights",
+    category: "Tech",
     videoID: "tFpGjB678Ak",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/Lin-Dan_-vs-Lee-Chong-Wei_bcytzb.jpg",
@@ -97,7 +97,7 @@ export const videos = [
       name: "BG Badminton Academy",
     },
     views: "1M",
-    category: "Badminton Tutorials",
+    category: "Product",
     videoID: "S2-G_tbIj80",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964202/Shuttle%20motion/Basic-Badminton-Techniques_hivnsd.jpg",
@@ -113,7 +113,7 @@ export const videos = [
       name: "Nat Weerasak",
     },
     views: "8M",
-    category: "Badminton Tutorials",
+    category: "Product",
     videoID: "1UIhKZCPMYM",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964202/Shuttle%20motion/Basic-Badminton-for-Beginners_daokrx.png",
@@ -122,14 +122,14 @@ export const videos = [
     _id: uuid(),
     title: "10 Amazing Badminton Trickshots - Made By A World Champion",
     description:
-      "10 amazing badminton trickshots, learn them here, some very cool badminton trick shots for you to learn. These 10 trickshots are all made by World Champion Thomas Laybourn, some of them for fun, but also some you can use in a match.",
+      "10 amazing badminton trickshots, learn them here, some very cool Humour for you to learn. These 10 trickshots are all made by World Champion Thomas Laybourn, some of them for fun, but also some you can use in a match.",
     creator: {
       profile:
         "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/badminton-family_profile_ay9k1s.jpg",
       name: "Badminton Famly",
     },
     views: "2M",
-    category: "Badminton Trick Shots",
+    category: "Humour",
     videoID: "sJPBuUDGqGg",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964202/Shuttle%20motion/10-Amazing-Badminton-Trickshots_vsoncm.jpg",
@@ -145,7 +145,7 @@ export const videos = [
       name: "Badminton Famly",
     },
     views: "1.7M",
-    category: "Badminton Trick Shots",
+    category: "Humour",
     videoID: "07x6-qippgo",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/Shots-biomechanics_bwn5wr.jpg",
