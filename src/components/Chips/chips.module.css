@@ -11,11 +11,11 @@
   }
 
   .chip:hover{
-    background-color: var(--TEXT-HIGHLIGHT-COLOR);
+    background-color: #ff5964;
     color: var(--WHITE-COLOR);
   }
 
   .chipActive{
-    background-color: var(--TEXT-HIGHLIGHT-COLOR);
-    color: var(--WHITE-COLOR);
+    background-color: black;
+    color: red
   }

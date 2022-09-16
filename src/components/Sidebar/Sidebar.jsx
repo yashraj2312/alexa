@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./sidebar.module.css";
 import {
-  PhTwitterLogoDuotone,
   PhGithubLogoDuotone,
 } from "assets";
 
@@ -36,7 +35,7 @@ export function Sidebar() {
 
       <ol className={styles.socialHandles}>
         <h3 className={`text-center ${styles.socialHeading}`}>
-          Connect with me on
+          Contribute 
         </h3>
         <section className={`list-unstyled ${styles.socialsMenu}`}>
           
@@ -49,15 +48,7 @@ export function Sidebar() {
               <PhGithubLogoDuotone />
             </a>
           </li>
-          <li className={styles.socialNavLinks}>
-            <a
-              href='https://twitter.com/mister__bourbon'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <PhTwitterLogoDuotone />
-            </a>
-          </li>
+         
         </section>
       </ol>
     </aside>
