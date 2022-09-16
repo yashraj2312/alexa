@@ -31,7 +31,7 @@ export function Signup() {
 
     if (userDetails.password !== userDetails.confirmPassword) {
       addSnackbar(
-        "Password and confirm password doesn't match",
+        "Password and Confirm password doesn't match",
         "snackbar-danger"
       );
     } else {
@@ -79,12 +79,12 @@ export function Signup() {
             </div>
 
             <div className='form-set'>
-              <Label labelFor='email' labelName='Email' />
+              <Label labelFor='email' labelName='E-mail' />
               <Input
                 type='email'
                 id='email'
                 name='email'
-                placeholder='johndoe@gmail.com'
+                placeholder='john@doe.com'
                 value={userDetails.email}
                 setUserDetails={setUserDetails}
                 userDetails={userDetails}
@@ -97,7 +97,7 @@ export function Signup() {
                 type={showPassWord.password ? `text` : `password`}
                 id='password'
                 name='password'
-                placeholder='Enter password'
+                placeholder='******'
                 value={userDetails.password}
                 setUserDetails={setUserDetails}
                 userDetails={userDetails}
@@ -121,7 +121,7 @@ export function Signup() {
                 type={showPassWord.confirmPassword ? `text` : `password`}
                 id='confirm-password'
                 name='confirmPassword'
-                placeholder='Enter pasword again'
+                placeholder='******'
                 value={userDetails.confirmPassword}
                 setUserDetails={setUserDetails}
                 userDetails={userDetails}
@@ -146,9 +146,9 @@ export function Signup() {
               <p
                 className={`text-sm text-center text-bold-500  ${styles.formLinkText}`}
               >
-                Existing user ?
+                Already a member ? 
                 <Link className='text-primary text-sm' to='/login'>
-                  Login Here
+                  Sign In Here
                 </Link>
               </p>
             </div>
