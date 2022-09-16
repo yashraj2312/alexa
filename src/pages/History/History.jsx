@@ -29,7 +29,7 @@ export function History() {
               className={`btn btn-danger ${styles.btnDeleteHistory}`}
               onClick={btnDeleteHandler}
             >
-              clear all history
+              Delete History
             </button>
           ) : null}
         </div>

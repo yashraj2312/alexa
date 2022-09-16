@@ -40,7 +40,7 @@ export function Playlists() {
                 className={`btn btn-danger btn-danger ${styles.btnCreatePlaylist}`}
                 onClick={btnPlaylistModalHandler}
               >
-                create a new Playlist
+                Create new Playlist
               </button>
             </div>
             <EmptyPlaceholder />
@@ -51,7 +51,7 @@ export function Playlists() {
             className={`btn btn-danger btn-danger ${styles.btnCreatePlaylist}`}
             onClick={btnPlaylistModalHandler}
           >
-            create playlist
+            Create Playlist
           </button>
         </div>
         <section className={styles.playlists}>

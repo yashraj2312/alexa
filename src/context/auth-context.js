@@ -79,7 +79,7 @@ const AuthProvider = ({ children }) => {
         const {
           foundUser: { firstName },
         } = response.data;
-        addSnackbar(`${firstName} logged in.`, "snackbar-info");
+        addSnackbar(`Welcome back ${firstName} `, "snackbar-info");
 
         navigate(location?.state?.from?.pathname ?? "/", { replace: true });
       }

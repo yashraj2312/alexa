@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./pagenotfound.module.css";
-import { notFound } from "assets";
 import { useDocumentTitle } from "hooks";
 import { useNavigate } from "react-router-dom";
 
@@ -13,14 +12,10 @@ export function PageNotFound() {
 
   return (
     <div className={styles.show404}>
-      <h1 className={styles.heading}>You took a wrong turn</h1>
-      <img
-        className={`responsive-img ${styles.showNotFound}`}
-        src={notFound}
-        alt='page not found'
-      ></img>
+      <h1 className={styles.heading}>oops...This page doesn't exists</h1>
+      
       <button className='btn btn-secondary' onClick={btnClickHandler}>
-        Back to home
+        Go to Tunnel Tube
       </button>
     </div>
   );

@@ -31,15 +31,15 @@ export function Login() {
       <Navbar />
       <main className={`${styles.loginMain} flex-column`}>
         <div className={`${styles.formContainer} card`}>
-          <h2 className={styles.formHeading}>Login</h2>
+          <h2 className={styles.formHeading}>Sign In</h2>
           <form onSubmit={submitHandler}>
             <div className='form-set'>
-              <Label labelFor='email' labelName='Email' />
+              <Label labelFor='email' labelName='E-mail' />
               <Input
                 type='email'
                 id='email'
                 name='email'
-                placeholder='johndoe@gmail.com'
+                placeholder='john@doe.com'
                 value={userDetails.email}
                 setUserDetails={setUserDetails}
                 userDetails={userDetails}
@@ -75,7 +75,7 @@ export function Login() {
                 className='btn btn-secondary form-btn text-center'
                 onClick={guestLoginHandler}
               >
-                Guest Login
+                Sign in via Guest Credentials
               </button>
               <p
                 className={`text-sm text-center text-bold-500 text-primary ${styles.formLinkText}`}
