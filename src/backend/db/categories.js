@@ -12,18 +12,18 @@ export const categories = [
   },
   {
     _id: uuid(),
-    categoryName: "Match Highlights",
+    categoryName: "Tech",
   },
   {
     _id: uuid(),
-    categoryName: "Badminton Tutorials",
+    categoryName: "Product",
   },
   {
     _id: uuid(),
-    categoryName: "Badminton Trick Shots",
+    categoryName: "Humour",
   },
   {
     _id: uuid(),
-    categoryName: "Players Interview",
+    categoryName: "Formula 1",
   },
 ];

@@ -23,7 +23,7 @@ export function Login() {
 
   const guestLoginHandler = (e) => {
     e.preventDefault();
-    handleSignIn({ email: "adarshbalika@gmail.com", password: "adarsh123" });
+    handleSignIn({ email: "john@doe.com", password: "password123" });
   };
 
   return (

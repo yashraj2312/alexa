@@ -8,145 +8,145 @@ export const videos = [
   {
     _id: uuid(),
     title:
-      "Badminton Player PV Sindhu Unique Talk Show With Ajay Gupta | AHPS Mega Competition",
+      "The Insane Logistics of Formula 1",
     description:
-      "PV Sindhu, 2016 Rio Olympics silver medalist, Talkshow with Ajay Gupta (CEO- Bachpan & AHPS Group) about how they prepared for the glorious journey to an Olympics final. Watch the full Talkshow at 5th Annual AHPS Mega Competition 2018-19.",
+      "Formula One freight moves by land, air and sea to five continents in nine months. With 22 events separated by less than a week or two — Check how the teams manages to do it.",
     creator: {
       profile:
-        "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/bachpan-play-school_profile_ggsxwi.jpg",
-      name: "Bachpan Play School",
+        "https://res.cloudinary.com/hellbat/image/upload/v1663302451/Tunneltube%28alexa%29%20video%20library/formula_profile_to4lwy.jpg",
+      name: "Formula 1",
     },
-    views: "5k",
-    category: "Players Interview",
-    videoID: "RAnyZRnPE3I",
+    views: "10M",
+    category: "Formula 1",
+    videoID: "6OLVFa8YRfM",
     thumbnail:
-      "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/PV-Sindhu-Interview_kemx3s.jpg",
+      "https://res.cloudinary.com/hellbat/image/upload/v1663302449/Tunneltube%28alexa%29%20video%20library/formula_tumb_jwopem.webp",
   },
   {
     _id: uuid(),
-    title: "PV Sindhu's FULL Bronze Medal Match 🥉 | Tokyo Replays",
+    title: "Building E-Commerce Cloud Infra for Millions",
     description:
-      " World champion and Rio 2016 silver medallist India's PV Sindhu took home the bronze after beating China's HE Bing Jao by two sets: 21-13, 21-15. Enjoy watching the full women's singles bronze medal match in women's badminton! ",
+      "Subhash talks about their journey from SEO optimization to building a Shopify challenger over the last decade and how their team is surmounting challenges of extremely low latency page loads of shops on slow mobile internet connections across the globe! ",
     creator: {
       profile:
-        "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/olympics_profile_ybxkdh.jpg",
-      name: "Olympics",
+        "https://res.cloudinary.com/hellbat/image/upload/v1663303015/Tunneltube%28alexa%29%20video%20library/scaler_profile_zyr9ei.jpg",
+      name: "Tech Pod",
     },
-    views: "6M",
-    category: "Match Highlights",
-    videoID: "JRF8mECyOJY",
+    views: "27K",
+    category: "Tech",
+    videoID: "a5kKRtMmhzQ",
     thumbnail:
-      "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/PV-Sindhu-Match_iino5e.jpg",
+      "https://i.ytimg.com/vi/a5kKRtMmhzQ/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxpUwEG6zMVDusQWOhfKqeqjZQkA",
   },
   {
     _id: uuid(),
-    title: "Men's Badminton 🏸 Gold Medal Match | Tokyo Replays",
+    title: "The Working of UPI Payment",
     description:
-      "Viktor Axelsen of Denmark took the gold medal in the men's singles Badminton at the Tokyo2020 Olympic Games, denying a repeat title to the People's Republic of China's Chen Long in certain fashion (2-0) on 2nd August, at the Musashino Forest Sport Plaza. Relive the FULL match!",
+      "UPI or unified payments interface is a real-time, single-window payment programme developed by the National Payments Corporation of India. In layman terms, UPI is a payment interface that allows you to transfer payments in real-time from one bank account to another. ",
     creator: {
       profile:
         "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/olympics_profile_ybxkdh.jpg",
-      name: "Olympics",
+      name: "Decoded",
     },
-    views: "2.5M",
-    category: "Match Highlights",
-    videoID: "uIj03RsGrJA",
+    views: "100K",
+    category: "Tech",
+    videoID: "V6cN8VIss0c",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964202/Shuttle%20motion/Badminton-Gold_Medal-Match_vxdapm.jpg",
   },
   {
     _id: uuid(),
-    title: "Yonex BWF World Badminton Championships 2011 - Player Interviews",
+    title: "How Formula 1 is Filmed (Technical Masterpiece)",
     description:
-      "Viktor Axelsen of Denmark took the gold medal in the men's singles Badminton at the Tokyo2020 Olympic Games, denying a repeat title to the People's Republic of China's Chen Long in certain fashion (2-0) on 2nd August, at the Musashino Forest Sport Plaza. Relive the FULL match!",
+      "Drones, Cameras and a Helicopter. The sport uses dozens of cameras to broadcast the action, from the track, in the air and even from inside the cars. Let's dig deeper",
     creator: {
       profile:
         "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/visit-london_profile_dtdhnh.jpg",
-      name: "Visit London",
+      name: "Formula 1",
     },
-    views: "13k",
-    category: "Players Interview",
-    videoID: "X4Uu_0xwU7g",
+    views: "10M",
+    category: "Formula 1",
+    videoID: "78wxrEbuHFA",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/BWF-Players-interview_oxdcrr.jpg",
   },
   {
     _id: uuid(),
-    title: "Last Match Between 2 Legends | Lin Dan vs Lee Chong Wei ",
+    title: "Software: More than Just Cool Apps",
     description:
-      "Last Match Between 2 Legends | Lin Dan vs Lee Chong Wei. The Lee-Lin rivalry was a rivalry between two professional badminton players, Lee Chong Wei and Lin Dan whose careers were almost exactly contemporaneous. The rivalry is often considered the greatest in the history of badminton",
+      "We often think software is only about creating dating apps or funny emoticons, but in this talk, entrepreneur Jimmy Chen encourages us to see software as a tool that changes the world.",
     creator: {
       profile:
         "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/shuttle-amazing_profile_agfrdl.jpg",
-      name: "Shuttle Amazing",
+      name: "Ted Talks",
     },
-    views: "110k",
-    category: "Match Highlights",
-    videoID: "tFpGjB678Ak",
+    views: "12Mk",
+    category: "Tech",
+    videoID: "lVlrgHIQkBM",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/Lin-Dan_-vs-Lee-Chong-Wei_bcytzb.jpg",
   },
   {
     _id: uuid(),
-    title: "12 Basic Badminton Techniques that you MUST Know - Introduction ",
+    title: "BNPL - Buy Now Pay Later - Product Strategy and its Future",
     description:
-      "This video is meant to be a quick intro to the different techniques and the jargon. For in-depth guides on each skill, search them up on Youtube, the names of them are  Remember, keep practicing the skills that you're weaker in, and in time you'll be able to use it effectively in a competitive match! Train hard!",
+      "BNPL - Buy Now Pay Later platforms like Affirm, Klarna, Afterpay grew really fast to unicorns and are now seeing significant decline, with some of them down as low as 80-90%. What are these BNPL products? What is their Product Strategy? Why did the big banks did not catch up to this trend yet and What is their future.",
     creator: {
       profile:
         "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/BG-badminton-academy_profile_eiloy7.jpg",
-      name: "BG Badminton Academy",
+      name: "Product Breakdown",
     },
-    views: "1M",
-    category: "Badminton Tutorials",
-    videoID: "S2-G_tbIj80",
+    views: "40K",
+    category: "Product",
+    videoID: "qBjK3E7svao",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964202/Shuttle%20motion/Basic-Badminton-Techniques_hivnsd.jpg",
   },
   {
     _id: uuid(),
-    title: "Basic of Badminton for Beginners.",
+    title: "Ads in Taxi (Taxi Ads) - Product Strategy",
     description:
-      "This video covers - Proper Rocket Crip in Badminton, Badminton Swing for Beginners, Basic Footwork for Badminton Beginners, Sort Serve in Badminton, Long Serve in Badminton.",
+      "Uber/Lyft and other ride hailing companies are getting into OOH (Out of home ads) with the digital ads outside the car (top of the car) and inside the car. What is this product? Why is Uber/Lyft doing this? Whats their product strategy and whats its future. ",
     creator: {
       profile:
         "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/Nat-Weerasak_profile_buiamj.jpg",
-      name: "Nat Weerasak",
+      name: "Product Teardown",
     },
-    views: "8M",
-    category: "Badminton Tutorials",
-    videoID: "1UIhKZCPMYM",
+    views: "1M",
+    category: "Product",
+    videoID: "E59Y5fl3n9I",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964202/Shuttle%20motion/Basic-Badminton-for-Beginners_daokrx.png",
   },
   {
     _id: uuid(),
-    title: "10 Amazing Badminton Trickshots - Made By A World Champion",
+    title: "How coronavirus affects programmers in big tech companies | Parody",
     description:
-      "10 amazing badminton trickshots, learn them here, some very cool badminton trick shots for you to learn. These 10 trickshots are all made by World Champion Thomas Laybourn, some of them for fun, but also some you can use in a match.",
+      "Funny takedown on covid impact in companies",
     creator: {
       profile:
         "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/badminton-family_profile_ay9k1s.jpg",
-      name: "Badminton Famly",
+      name: "Joma tech",
     },
-    views: "2M",
-    category: "Badminton Trick Shots",
-    videoID: "sJPBuUDGqGg",
+    views: "124K",
+    category: "Humour",
+    videoID: "vT3GUKuAzIs",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964202/Shuttle%20motion/10-Amazing-Badminton-Trickshots_vsoncm.jpg",
   },
   {
     _id: uuid(),
-    title: "How to use the wrist in badminton - 5 shots biomechanics",
+    title: "How to make $1M a year in your 20s...| Parody",
     description:
-      "How to use the wrist in badminton - 5 shots biomechanics. I will show you how not to use the wrist, and also how to use it correctly. In badminton the wrist biomechanics is really important to get more power in your shots, and to avoid injuries in the wrist. With the correct badminton grip, it is easier to learn the right technique, and to use the wrist the right way, with forearm rotation.",
+      "You don't really need a description for this video",
     creator: {
       profile:
         "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964280/Shuttle%20motion/badminton-family_profile_ay9k1s.jpg",
-      name: "Badminton Famly",
+      name: "Joma Tech",
     },
     views: "1.7M",
-    category: "Badminton Trick Shots",
-    videoID: "07x6-qippgo",
+    category: "Humour",
+    videoID: "CK_BCMA9yoY",
     thumbnail:
       "https://res.cloudinary.com/dj5aind8q/image/upload/v1648964201/Shuttle%20motion/Shots-biomechanics_bwn5wr.jpg",
   },
