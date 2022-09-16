@@ -4,26 +4,26 @@ export const emptyPlaceholderData = [
   {
     _id: uuid(),
     route: "playlist",
-    heading: "Create a playlist",
+    heading: "Playlists",
     description:
-      "Start creating your playlists. The playlists will show up here.",
+      "Looks like you haven't created any playlist",
   },
   {
     _id: uuid(),
     route: "history",
-    heading: "No videos in history",
-    description: "Watch videos. The videos you watch will show up here.",
+    heading: "Looks like you haven't watched any video",
+    description: "",
   },
   {
     _id: uuid(),
     route: "watch-later",
-    heading: "No videos in watch later",
-    description: "The videos you save for watch later will show up here.",
+    heading: "No videos added to be watched later",
+    description: "",
   },
   {
     _id: uuid(),
     route: "liked",
-    heading: "No videos in like",
-    description: "Like videos. The videos you like will show up here.",
+    heading: "No Liked Videos",
+    description: "",
   },
 ];
